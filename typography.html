@@ -9,6 +9,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 
 <link rel="import" href="../polymer/polymer.html">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500" crossorigin="anonymous">
 
 <!--
 Typographic styles are provided matching the Material Design standard styles:
@@ -29,7 +31,12 @@ Design typography section.
       };
 
       --paper-font-common-code: {
-        font-family: 'Consolas', 'Menlo', monospace;
+        font-family: 'Source Code Pro', 'Consolas', 'Menlo', monospace;
+        -webkit-font-smoothing: antialiased;
+      };
+
+      --paper-font-common-brand: {
+        font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         -webkit-font-smoothing: antialiased;
       };
 
@@ -170,8 +177,6 @@ Design typography section.
         font-weight: 500;
         line-height: 20px;
       };
-
     }
-
   </style>
 </custom-style>
